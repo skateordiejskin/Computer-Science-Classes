@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -N job3
+#PBS -q production
+#PBS -l select=10:ncpus=1
+#PBS -l place=free
+#PBS -V
+
+cd $PBS_O_WORKDIR
+
+mpirun -np 10 -machinefile $PBS_NODEFILE ./lab3.out

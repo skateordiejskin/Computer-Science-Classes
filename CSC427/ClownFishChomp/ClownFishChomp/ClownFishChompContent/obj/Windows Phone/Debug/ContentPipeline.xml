@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>background.jpg</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\Content\background.xnb</Output>
+      <Time>2011-09-20T15:57:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>shark.png</Source>
+      <Name>shark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\Content\shark.xnb</Output>
+      <Time>2011-09-20T15:57:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clownfish.png</Source>
+      <Name>clownfish</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\Content\clownfish.xnb</Output>
+      <Time>2011-09-20T15:57:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>start.jpg</Source>
+      <Name>start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\Content\start.xnb</Output>
+      <Time>2011-09-20T15:57:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>player2.png</Source>
+      <Name>player2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\Content\player2.xnb</Output>
+      <Time>2011-09-20T15:57:50-04:00</Time>
+    </Item>
+    <Item>
+      <Source>jaws.mp3</Source>
+      <Name>jaws</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\Content\jaws.xnb</Output>
+      <Extra>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\Content\jaws.wma</Extra>
+      <Time>2011-09-22T14:50:02-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>WindowsPhone</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChompContent\</RootDirectory>
+      <LoggerRootDirectory>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\</LoggerRootDirectory>
+      <IntermediateDirectory>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChompContent\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-10-05T13:55:05.125119-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

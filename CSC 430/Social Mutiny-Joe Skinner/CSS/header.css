@@ -1,0 +1,17 @@
+.header {
+	background-color:black;
+	/*position:relative;*/
+	height:50px;
+	display:block;
+	margin:auto
+	width:100%;
+}
+
+.header h1 {
+	font: 2em normal Arial, Helvetica, Verdana, sans-serif;
+	color: white;
+	margin-left:2px;
+	}
+.header a{
+	color:white;
+	}

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>background.jpg</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2011-09-27T15:52:42.7710308-04:00</Time>
+    </Item>
+    <Item>
+      <Source>shark.png</Source>
+      <Name>shark</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\x86\Debug\Content\shark.xnb</Output>
+      <Time>2011-09-27T15:52:42.7554307-04:00</Time>
+    </Item>
+    <Item>
+      <Source>clownfish.png</Source>
+      <Name>clownfish</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\x86\Debug\Content\clownfish.xnb</Output>
+      <Time>2011-09-27T15:52:42.7198307-04:00</Time>
+    </Item>
+    <Item>
+      <Source>start.jpg</Source>
+      <Name>start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\x86\Debug\Content\start.xnb</Output>
+      <Time>2011-09-27T15:52:42.7866308-04:00</Time>
+    </Item>
+    <Item>
+      <Source>player2.png</Source>
+      <Name>player2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\x86\Debug\Content\player2.xnb</Output>
+      <Time>2011-09-27T15:52:42.7398307-04:00</Time>
+    </Item>
+    <Item>
+      <Source>jaws.mp3</Source>
+      <Name>jaws</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\x86\Debug\Content\jaws.xnb</Output>
+      <Extra>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\x86\Debug\Content\jaws.wma</Extra>
+      <Time>2011-09-27T15:52:42.8178308-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChompContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChomp\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChompContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-07-06T13:16:45.7504556-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

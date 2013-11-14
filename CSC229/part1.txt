@@ -1,0 +1,142 @@
+//Joe Skinner
+
+[joseph.skinner@athena ~]$ mkdir lab2
+[joseph.skinner@athena ~]$ cd lab2
+[joseph.skinner@athena lab2]$ nano hello.c
+  GNU nano 1.3.12                    File: hello.c                                               
+
+//Joe Skinner
+//Lab 2
+#include<mpi.h>
+#include<stdio.h>
+int main(int argc, char **argv) {
+        int nprocs, mypid;
+        MPI_Init(&argc, &argv);
+        MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
+        MPI_Comm_rank(MPI_COMM_WORLD, &mypid);
+        printf("Hello world from process %d of total %d! \n", mypid,nprocs);
+        MPI_Finalize();
+}
+
+
+
+
+
+
+
+
+
+
+
+                                       [ Wrote 13 lines ]
+
+[joseph.skinner@athena lab2]$ nano myjob2 
+  GNU nano 1.3.12                    File: myjob2                                                
+
+#!/bin/bash
+#PBS -N job1
+#PBS -q production
+#PBS -l select=16:ncpus=1
+#PBS -l place=free
+#PBS -V
+cd $PBS_O_WORKDIR
+mpirun -np 16 -machinefile $PBS_NODEFILE ./hello.awesome
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        [ Wrote 9 lines ]
+
+[joseph.skinner@athena lab2]$ ls
+hello.c  myjob2
+[joseph.skinner@athena lab2]$ mpicc hello.c -o hello.awesome
+/share/apps/intel/composerxe-2011.0.084/compiler/lib/intel64/libimf.so: warning: warning: feupdateenv is not implemented and will always fail
+[joseph.skinner@athena lab2]$ chmod a+x myjob2
+[joseph.skinner@athena lab2]$ qsub myjob2
+26001.athena.csi.cuny.edu
+[joseph.skinner@athena lab2]$ qstat
+PBS Pro Server athena.csi.cuny.edu at CUNY CSI HPC Center
+Job id            Name             User              Time Use S Queue
+----------------  ---------------- ----------------  -------- - -----
+16858.athena      L320quasisteady  rhipolito         259:33:4 R qserial         
+16859.athena      L320qsshorttime  rhipolito         254:29:1 R qserial         
+16860.athena      L320qsshortstep  rhipolito         258:44:1 R qserial         
+22982.athena      density_0        amayabower        1036:31: R qlong16         
+23223.athena      density_3        amayabower        1036:37: R qlong16         
+23224.athena      density_2        amayabower        1036:34: R qlong16         
+23225.athena      den_100_0        amayabower        1036:33: R qlong16         
+23226.athena      den_100_1        amayabower        1036:36: R qlong16         
+23227.athena      den_100_2        amayabower        1036:35: R qlong16         
+23228.athena      den_100_3        amayabower        1036:34: R qlong16         
+23229.athena      density_1        amayabower        1036:36: R qlong16         
+24150.athena      JJob             jae.yeum          658:04:5 R qlong16         
+25929.athena      WCNT.CPMD        aperez            407:49:2 R qlong64         
+25931.athena      CPMD             aperez            139:54:2 R qlong16         
+25935.athena      1_0.04_nf        xyun              08:20:55 R qserial         
+25936.athena      1_0.08_nf        xyun              08:20:32 R qserial         
+25937.athena      1_0.16_nf        xyun              08:20:16 R qserial         
+25941.athena      2_0.04_nf        xyun              08:20:45 R qserial         
+25942.athena      2_0.08_nf        xyun              08:20:32 R qserial         
+25943.athena      2_0.16_nf        xyun              08:20:17 R qserial         
+25947.athena      3_0.04_nf        xyun              08:20:45 R qserial         
+25948.athena      3_0.08_nf        xyun              08:20:19 R qserial         
+25949.athena      3_0.16_nf        xyun              08:20:10 R qserial         
+25953.athena      4_0.04_nf        xyun              08:20:32 R qserial         
+25954.athena      4_0.08_nf        xyun              08:20:09 R qserial         
+25955.athena      4_0.16_nf        xyun              08:20:17 R qserial         
+25959.athena      5_0.04_nf        xyun              08:21:01 R qserial         
+25960.athena      5_0.08_nf        xyun              08:20:34 R qserial         
+25961.athena      5_0.16_nf        xyun              08:20:24 R qserial         
+25965.athena      6_0.04_nf        xyun              08:20:58 R qserial         
+25966.athena      6_0.08_nf        xyun              08:20:40 R qserial         
+25967.athena      6_0.16_nf        xyun              08:19:34 R qserial         
+25971.athena      7_0.04_nf        xyun              08:20:52 R qserial         
+25972.athena      7_0.08_nf        xyun              08:20:37 R qserial         
+25973.athena      7_0.16_nf        xyun              08:20:37 R qserial         
+25977.athena      8_0.04_nf        xyun              08:21:01 R qserial         
+25978.athena      8_0.08_nf        xyun              08:20:39 R qserial         
+25979.athena      8_0.16_nf        xyun              08:20:18 R qserial         
+26001.athena      job1             joseph.skinner           0 R qlong16         
+[joseph.skinner@athena lab2]$ ls
+hello.awesome  hello.c  job1.e26001  job1.o26001  myjob2
+
+[joseph.skinner@athena lab2]$ nano job1.o26001
+  GNU nano 1.3.12                   File: job1.o26001                                            
+
+
+Please remove files that are not needed anymore.
+
+Hello world from process 0 of total 16!
+Hello world from process 6 of total 16!
+Hello world from process 5 of total 16!
+Hello world from process 7 of total 16!
+Hello world from process 13 of total 16!
+Hello world from process 9 of total 16!
+Hello world from process 8 of total 16!
+Hello world from process 10 of total 16!
+Hello world from process 15 of total 16!
+Hello world from process 3 of total 16!
+Hello world from process 12 of total 16!
+Hello world from process 11 of total 16!
+Hello world from process 4 of total 16!
+Hello world from process 14 of total 16!
+Hello world from process 2 of total 16!
+Hello world from process 1 of total 16!
+
+
+
+
+                                        [ Read 19 lines ]
+
+[joseph.skinner@athena lab2]$ 

@@ -1,0 +1,5 @@
+4 300
+Joe Skinner 123456 4 1 ComputerSci CSC330 4 C ComputerSci CSC427 4 B ComputerSci CSC229 4 C Calculus MTH231 3 B
+Amed Mahmoud 456984 4 0 ComputerSci CSC330 4 B ComputerSci CSC427 4 B ComputerSci CSC229 4 C Calculus MTH231 3 B
+Mike Cicero 121312 4 1 Mathematics MTH311 4 A ComputerSci CSC470 4 B ComputerSci CSC346 4 B Astronomy AST160 4 A
+Ramzy Abdelhamed 233298 5 0 Mathematics MTH311 4 A ComputerSci CSC470 4 B ComputerSci CSC347 4 C ComputerSci CSC446 4 B History HIS356 3 A

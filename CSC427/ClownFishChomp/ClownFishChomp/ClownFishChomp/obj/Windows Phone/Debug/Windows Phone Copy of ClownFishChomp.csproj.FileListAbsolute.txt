@@ -1,0 +1,18 @@
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\ClownFishChomp.dll
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\ClownFishChomp.pdb
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\obj\Windows Phone\Debug\ClownFishChomp.dll
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\obj\Windows Phone\Debug\ClownFishChomp.pdb
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\AppManifest.xaml
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\obj\Windows Phone\Debug\WMAppManifest.xml.g
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\GameThumbnail.png
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\ClownFishChomp.xap
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\obj\Windows Phone\Debug\XapCacheFile.xml
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\ClownFishChomp.xap
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\obj\Windows Phone\Debug\XapCacheFile.xml
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\bin\Windows Phone\Debug\AppManifest.xaml
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\obj\Windows Phone\Debug\WMAppManifest.xml.g
+H:\CSC Classes\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChomp\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\GameThumbnail.png

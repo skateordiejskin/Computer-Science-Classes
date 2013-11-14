@@ -1,0 +1,186 @@
+body{
+	font-family: 'Open Sans', 'Helvetica Neue', Arial sans-serif;
+	height:100%;
+    width:100%;
+    margin:0 auto;
+	padding:0;
+	text-align:left;
+	color:#666;
+	font-size:14px;
+	}
+
+#newUser {
+	float:left;
+	width:150px;
+}
+
+#login {
+	float:right;
+	width:150px;
+}
+
+.section {
+	word-wrap: break-word;
+	min-height: 500px;
+	padding: 40px;
+}
+.wrapper{
+		position: absolute;
+		top: 10px; left: 40px;
+		width: 8700px;
+		margin: 0;
+		padding: 0;
+    	}
+.box {
+		width: 960px;
+		float: left;
+		line-height: 22px;
+		margin: 30px;
+		padding: 5px 30px 30px 30px;
+		border-style:solid;
+		border-width:1px;
+}
+.topNav{
+	position: fixed !important;
+	width: 100%;
+	top: -14px;
+	left: 0;
+	height: 65px;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .3);
+	list-style-type: none;
+}
+
+.topNav.dark{
+	background: #000;
+	background: rgba(0,0,0,.92);
+	border-bottom: 4px solid #222;
+	
+}
+#main{
+	width: 960px;
+	position: relative;
+	overflow: visible;
+	margin: 0 auto 140px;
+	padding: 0;
+	/*padding: 0 0 70px; sticky footer */
+	background: #fff;
+	
+}
+
+.topNavLink{
+	float: left;
+	margin: 0 5px 0;
+}
+
+.topNavLink a{
+	display: block;
+	height: 18px;
+	margin: 15px 0 0;
+	line-height: 16px;
+	padding: 7px 12px;
+	color: #666;
+	border: 1px solid #fff;
+	font-weight: normal;
+}
+
+.dark .topNavLink.active a{
+	background: #222;
+	color: #fff;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #4c4c4c 3%, #333333 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(3%,#4c4c4c), color-stop(100%,#333333)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #4c4c4c 3%,#333333 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #4c4c4c 3%,#333333 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #4c4c4c 3%,#333333 100%); /* IE10+ */
+	background: linear-gradient(top,  #4c4c4c 3%,#333333 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+	border: none;
+}
+
+.dark .topNavLink a{
+	border: none;
+}
+
+.topNav .colors{
+	position: relative;
+	overflow: hidden;
+	float: right;
+	width: 100px;
+	margin: 22px 0 0;
+}
+
+.topNav .colors span{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: 14px;
+	height: 0;
+	padding: 14px 0 0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	float: left;
+}
+
+.topNav .colors .label{
+	width: 40px;
+	font-size: 10px;
+	padding: 0;
+	height: 16px;
+	line-height: 16px;
+	color: #999;
+}
+
+.topNav .colors span.white{
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+.topNav .colors span.dark{
+	background: #111;
+	border: 1px solid #000;
+	margin: 0 0 0 5px;
+}
+
+.topNav .colors.white span.white{
+	border: 1px solid #999;
+}
+
+.topNav .colors.dark span.dark{
+	background: #000;
+	border: 1px solid #999;
+}
+.topNav ul{
+	position: relative;
+	overflow: hidden;
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+}
+
+.topNavLink{
+	float: left;
+	margin: 0 5px 0;
+}
+
+.topNavLink a{
+	display: block;
+	height: 18px;
+	margin: 15px 0 0;
+	line-height: 16px;
+	padding: 7px 12px;
+	color: #666;
+	border: 1px solid #fff;
+	font-weight: normal;
+}
+
+#search{float:right; color:black;}
+.messageForm{position:fixed;}
+.messages{overflow:auto;}

@@ -1,0 +1,29 @@
+.dateText{
+	font-size: x-small;
+	text-align: right;
+}
+
+.post{
+	width: 680px;
+	background:#fff;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	height: 20px;
+	}
+.search{
+	width: 300px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	margin-top:10px;
+	float:right;
+	padding-right:3%;
+	color:#fff;
+	}
+
+.whiteboard{
+	min-height: 500px;
+	}
+#comment{
+	font-size: x-small;
+	text-align: left;
+}

@@ -1,0 +1,2 @@
+C:\Users\Chris\Dropbox\School\Fall 2011\CSC 427\BeerTap\BeerTap\BeerTapContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+C:\Users\y450\Dropbox\CSC 427\BeerTap\BeerTap\BeerTapContent\obj\Windows Phone\Debug\ResolveAssemblyReference.cache

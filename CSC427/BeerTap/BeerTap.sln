@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerTap", "BeerTap\BeerTap\BeerTap.csproj", "{C40E3988-81F5-4530-A430-DBFFE4DCE06F}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BeerTapContent", "BeerTap\BeerTapContent\BeerTapContent.contentproj", "{7586A0AA-98E6-4ABC-AFD4-B150FA8E5D54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C40E3988-81F5-4530-A430-DBFFE4DCE06F}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{C40E3988-81F5-4530-A430-DBFFE4DCE06F}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{C40E3988-81F5-4530-A430-DBFFE4DCE06F}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{C40E3988-81F5-4530-A430-DBFFE4DCE06F}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{C40E3988-81F5-4530-A430-DBFFE4DCE06F}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{C40E3988-81F5-4530-A430-DBFFE4DCE06F}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{7586A0AA-98E6-4ABC-AFD4-B150FA8E5D54}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{7586A0AA-98E6-4ABC-AFD4-B150FA8E5D54}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

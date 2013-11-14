@@ -1,0 +1,7 @@
+c:\users\it\documents\visual studio 2010\Projects\ClownFishChomp\ClownFishChomp\ClownFishChompContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Skates\Dropbox\Fall 2011\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChompContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\JoeSkinner\Dropbox\Fall 2011\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChompContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\IT\Documents\ClownFishChomp\ClownFishChomp\ClownFishChompContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Skates\Dropbox\Fall 2011\ClownFishChomp\ClownFishChomp\ClownFishChompContent\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CSC 427\ClownFishChomp\ClownFishChomp\ClownFishChompContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\IT\Music\ClownFishChomp\ClownFishChomp\ClownFishChompContent\obj\x86\Debug\ResolveAssemblyReference.cache

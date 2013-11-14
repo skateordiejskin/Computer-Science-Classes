@@ -1,0 +1,17 @@
+a {text-decoration:none;}
+
+.text {
+	color:#777;
+	margin:20px;
+	float:left;
+	word-wrap: break-word;
+}
+
+.deletePhoto{
+	text-align: right;
+	margin-top: -25px;
+	margin-right: 10px;
+	}
+.commentText {
+	word-wrap: break-word;
+}

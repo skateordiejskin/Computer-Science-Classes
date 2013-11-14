@@ -1,0 +1,7 @@
+#footer{
+	float:bottom;
+	position:relative;
+	display:block;
+	height:20px;
+	bottom:0;
+}

@@ -1,0 +1,42 @@
+Student Name: Joe Skinner
+Student ID:  123456
+Number of courses enrolled: 4
+Course No. | Course Name | Credits | Grade | 
+Total number of credits: 15
+CSC330      ComputerSci        4          C
+CSC427      ComputerSci        4          B
+CSC229      ComputerSci        4          C
+MTH231      Calculus        3          B
+Mid-Semester GPA : 2.5
+
+
+
+Student Name: Amed Mahmoud
+Student ID:  456984
+Number of courses enrolled: 4
+Course No. | Course Name | Credits | Grade | 
+Total number of credits: 15
+Cost of Bill: 4500
+
+
+Student Name: Mike Cicero
+Student ID:  121312
+Number of courses enrolled: 4
+Course No. | Course Name | Credits | Grade | 
+Total number of credits: 16
+MTH311      Mathematics        4          A
+CSC470      ComputerSci        4          B
+CSC346      ComputerSci        4          B
+AST160      Astronomy        4          A
+Mid-Semester GPA : 3.5
+
+
+
+Student Name: Ramzy Abdelhamed
+Student ID:  233298
+Number of courses enrolled: 5
+Course No. | Course Name | Credits | Grade | 
+Total number of credits: 19
+Cost of Bill: 5700
+
+
